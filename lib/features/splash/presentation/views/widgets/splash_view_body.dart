@@ -21,20 +21,24 @@ class _SplashViewBodyState extends State<SplashViewBody> {
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      crossAxisAlignment: .stretch,
       children: [
         Row(
           mainAxisAlignment: .start,
           children: [SvgPicture.asset(Assets.imagesSplashHead)],
         ),
         SvgPicture.asset(Assets.imagesSplashIcon),
-        SvgPicture.asset(Assets.imagesSplashBottom, fit: BoxFit.fill),
+        Column(
+          crossAxisAlignment: .stretch,
+          children: [
+            SvgPicture.asset(Assets.imagesSplashBottom, fit: BoxFit.fill),
+          ],
+        ),
       ],
     );
   }
 
   void ExcuteNavigation() {
-    Future.delayed(Duration(seconds: 2), () {
+    Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacementNamed(context, AppRoutes.onBoardingView);
     });
   }
