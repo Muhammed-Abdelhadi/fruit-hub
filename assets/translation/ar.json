@@ -1,0 +1,11 @@
+{
+    "app": {
+        "appName": "FruitHub"
+    },
+    "onBoarding": {
+        "greeting": "مرحبًا بك في",
+        "leftTitle": "Fruit",
+        "rightTitle": "Hub",
+        "subTitle": "اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية."
+    }
+}
