@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 
 class PageViewItem extends StatelessWidget {
   const PageViewItem({
@@ -12,8 +13,13 @@ class PageViewItem extends StatelessWidget {
   final String subtitle, image, backgroundImage;
   @override
   Widget build(BuildContext context) {
-    return Column(children: [
-        
+    return Column(
+      children: [
+        SvgPicture.asset(backgroundImage),
+        SvgPicture.asset(image),
+        title,
+        SizedBox(height: 24),
+        Text(subtitle),
       ],
     );
   }
