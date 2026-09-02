@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:fruit_hub/core/generated/app_asssets.dart';
 import 'package:fruit_hub/core/routes/app_routes.dart';
+import 'package:fruit_hub/generated/app_asssets.dart';
 
 class SplashViewBody extends StatefulWidget {
   const SplashViewBody({super.key});

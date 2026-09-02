@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:fruit_hub/core/generated/app_asssets.dart';
 import 'package:fruit_hub/core/utils/app_localization_strings.dart';
 import 'package:fruit_hub/features/onBoarding/views/widgets/page_view_item.dart';
+import 'package:fruit_hub/generated/app_asssets.dart';
 
 class OnBoardingPageView extends StatelessWidget {
   const OnBoardingPageView({super.key});
