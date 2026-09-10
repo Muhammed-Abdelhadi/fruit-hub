@@ -1,5 +1,8 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:fruit_hub/generated/app_asssets.dart';
+import 'package:fruit_hub/generated/locale_keys.g.dart';
 
 class PageViewItem extends StatelessWidget {
   const PageViewItem({
@@ -15,11 +18,24 @@ class PageViewItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SvgPicture.asset(backgroundImage),
-        SvgPicture.asset(image),
-        title,
-        SizedBox(height: 24),
-        Text(subtitle),
+        SizedBox(
+          width: double.infinity,
+          height: MediaQuery.of(context).size.height * 0.5,
+          child: Stack(
+            children: [
+              Positioned.fill(
+                child: SvgPicture.asset(backgroundImage, fit: BoxFit.fill),
+              ),
+              Positioned(
+                bottom: 0,
+                left: 0,
+                right: 0,
+                child: SvgPicture.asset(image, fit: BoxFit.scaleDown),
+              ),
+              Text(LocaleKeys.onBoarding_skip.tr())
+            ],
+          ),
+        ),
       ],
     );
   }

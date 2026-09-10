@@ -5,6 +5,7 @@
 abstract class  LocaleKeys {
   static const app_appName = 'app.appName';
   static const app = 'app';
+  static const onBoarding_skip = 'onBoarding.skip';
   static const onBoarding_greeting = 'onBoarding.greeting';
   static const onBoarding_leftTitle = 'onBoarding.leftTitle';
   static const onBoarding_rightTitle = 'onBoarding.rightTitle';

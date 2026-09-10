@@ -19,6 +19,7 @@ class CodegenLoader extends AssetLoader{
     "appName": "FruitHub"
   },
   "onBoarding": {
+    "skip": "تخط",
     "greeting": "مرحبًا بك في",
     "leftTitle": "Fruit",
     "rightTitle": "Hub",
