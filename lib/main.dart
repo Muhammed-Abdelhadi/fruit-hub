@@ -1,8 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:fruit_hub/app/fruit_hub_app.dart';
-import 'package:fruit_hub/core/routes/app_router.dart';
-import 'package:fruit_hub/core/routes/app_routes.dart';
 import 'package:fruit_hub/generated/codegen_loader.g.dart';
 
 void main() async{
