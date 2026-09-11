@@ -21,9 +21,11 @@ class CodegenLoader extends AssetLoader{
   "onBoarding": {
     "skip": "تخط",
     "greeting": "مرحبًا بك في",
+    "secondTitle": "ابحث وتسوق",
     "leftTitle": "Fruit",
     "rightTitle": "Hub",
-    "subTitle": "اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية."
+    "firstSubTitle": "اكتشف تجربة تسوق فريدة مع FruitHUB. استكشف مجموعتنا الواسعة من الفواكه الطازجة الممتازة واحصل على أفضل العروض والجودة العالية.",
+    "secondSubTitle": "نقدم لك أفضل الفواكه المختارة بعناية. اطلع على التفاصيل والصور والتقييمات لتتأكد من اختيار الفاكهة المثالية"
   }
 };
 static const Map<String, Map<String,dynamic>> mapLocales = {"ar": _ar};

@@ -7,9 +7,11 @@ abstract class  LocaleKeys {
   static const app = 'app';
   static const onBoarding_skip = 'onBoarding.skip';
   static const onBoarding_greeting = 'onBoarding.greeting';
+  static const onBoarding_secondTitle = 'onBoarding.secondTitle';
   static const onBoarding_leftTitle = 'onBoarding.leftTitle';
   static const onBoarding_rightTitle = 'onBoarding.rightTitle';
-  static const onBoarding_subTitle = 'onBoarding.subTitle';
+  static const onBoarding_firstSubTitle = 'onBoarding.firstSubTitle';
+  static const onBoarding_secondSubTitle = 'onBoarding.secondSubTitle';
   static const onBoarding = 'onBoarding';
 
 }
