@@ -16,6 +16,7 @@ class PageViewItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
+      crossAxisAlignment: .center,
       children: [
         SizedBox(
           width: double.infinity,
@@ -35,8 +36,9 @@ class PageViewItem extends StatelessWidget {
             ],
           ),
         ),
+        const SizedBox(height: 24),
         title,
-        Text(subtitle),
+        Text(subtitle, textAlign: TextAlign.center),
       ],
     );
   }
